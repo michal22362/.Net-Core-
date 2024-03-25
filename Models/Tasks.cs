@@ -1,9 +1,8 @@
-namespace lesson1.Models;
+namespace lesson2.Models;
 
 public class Tasks
 {
     public int Id { get; set; }
-    public string? Name { get; set; }
-    public string? Description { get; set; }
-    public bool Perform { get; set; }
+    public string description { get; set; }
+    public bool IsDone { get; set; }
 }

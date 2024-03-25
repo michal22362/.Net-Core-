@@ -1,16 +1,14 @@
-using lesson1.Models;
+using lesson2.Models;
 
-namespace lesson1.Interfaces;
+namespace lesson2.Interfaces;
 
-public interface ITaskService
+  public interface ItaskService
 {
-    public List<Tasks> GetAll();
+      List<Tasks> GetAll();
 
-    public Tasks Get(int id);
-
-    public int Post(Tasks newTask);
-
-    public void Put(int id, Tasks newTask);
-
-    public void Delete(int id);
+      Tasks Get(int id);
+      void Post(Tasks newTask);      
+      void Put(Tasks newTask);
+      void Delete(int id);
+      int Count {get;}
 }

@@ -1,4 +1,4 @@
-using lesson1.Utilities;
+using lesson2.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +18,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.UseRouting();
 
 app.UseHttpsRedirection();
 

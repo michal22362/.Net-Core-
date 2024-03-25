@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using lesson1.Models;
 using lesson1.Interfaces;
-// using System.Collections.Generic;
-// using System.Linq;
 
 namespace lesson1.Controllers;
 

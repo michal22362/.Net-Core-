@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U/uZEBWHQNiY8QAsUjmTVueqhkQDJ4/etHY+3alpl8jtn/OUNFPQVcwslFznB7/zdNUTLcllOXwZjEEM2Ujqvg==",
+  "dgSpecHash": "zFyXVYNqX5mrHtW4KQ+kcATZ/jrtJLNmlpYC3JBkNnoI20mbP6Flkub2lkiy83Izn1V5E5ozPJ7DKV2WY1VL6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Desktop\\lesson2\\lesson2.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\מיכל-שנה ב\\זילברברג - .NET Core\\lesson3\\lesson2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

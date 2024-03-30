@@ -1,4 +1,5 @@
 using lesson2.Utilities;
+using MyMiddleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTask();
 
 var app = builder.Build();
+
+app.UseMyFileMiddleware();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
